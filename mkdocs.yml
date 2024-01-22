@@ -22,11 +22,6 @@ plugins:
   - tags
   
 extra:
-  tags:
-    <tag>: <identifier>
-  version:
-    provider: mike
-    default: stable
   social:
     - icon: fontawesome/brands/mastodon 
       link: https://fosstodon.org/@squidfunk
@@ -34,3 +29,5 @@ extra:
 copyright: Copyright &copy; 2016 - 2020 Martin Donath
 repo_url: https://github.com/Pisces032/Blog
 repo_name: Pisces032/Blog
+
+
