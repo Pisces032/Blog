@@ -17,16 +17,13 @@ theme:
     - announce.dismiss
     - navigation.footer
     - toc.integrate
+    - navigation.top
   palette:
     primary: black
 
 plugins:
   - search
   - tags
-  - blog: 
-      blog_dir: blog
-      blog_toc: true
-      authors_profiles: true
 
 copyright: Copyright &copy; 2024 P1sc3s007
 repo_url: https://github.com/Pisces032/Blog
@@ -42,3 +39,11 @@ extra:
     - icon: fontawesome/brands/bilibili 
       link: https://space.bilibili.com/40044305
       name: Bilibili
+
+nav: 
+  - Welcome:
+    - index.md
+  - Blog: 
+    - blog/index.md
+    - blog/hello-world.md
+    - blog/提高代码可读性的一些方法.md
