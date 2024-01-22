@@ -20,6 +20,7 @@ plugins:
   - blog:
       authors_profiles: true
   - tags
+  
 extra:
   tags:
     <tag>: <identifier>
