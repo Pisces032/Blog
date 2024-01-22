@@ -1,17 +1,10 @@
-# Welcome to MkDocs
+# Welcome
+![shinji](https://pic.imgdb.cn/item/65ae2a51871b83018ad5f2a0.jpg)
+祭出shinjikun的大头。
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+## 欢迎来到P1sc3s007的个人博客
 
-## Commands
+* 我的Github主页：[Github](https://github.com/Pisces032)
+* 我的B站账号：[Bilibili](https://space.bilibili.com/40044305)
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
 
-## Project layout
-
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.

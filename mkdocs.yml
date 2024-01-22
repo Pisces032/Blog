@@ -1,3 +1,35 @@
-site_name: My Docs
+site_name: P1sc3s007的个人博客
 theme:
   name: material
+  language: zh
+  features:
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
+    - navigation.path
+    - navigation.indexes
+    - search.suggest
+    - search.share
+    - header.autohide
+    - announce.dismiss
+    - navigation.footer
+  palette:
+    primary: black
+plugins:
+  - search
+  - blog:
+      authors_profiles: true
+  - tags
+extra:
+  tags:
+    <tag>: <identifier>
+  version:
+    provider: mike
+    default: stable
+  social:
+    - icon: fontawesome/brands/mastodon 
+      link: https://fosstodon.org/@squidfunk
+      name: squidfunk on Fosstodon
+copyright: Copyright &copy; 2016 - 2020 Martin Donath
+repo_url: https://github.com/Pisces032/Blog
+repo_name: Pisces032/Blog
