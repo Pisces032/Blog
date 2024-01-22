@@ -1,10 +1,13 @@
 site_name: P1sc3s007的个人博客
+site_url: https://pisces032.github.io/P1sc3s007JustMyBlog/
+site_author: P1sc3s007
+site_description: P1sc3s007的个人网站
+
 theme:
   name: material
   language: zh
   features:
     - navigation.tabs
-    - navigation.tabs.sticky
     - navigation.sections
     - navigation.path
     - navigation.indexes
@@ -13,17 +16,29 @@ theme:
     - header.autohide
     - announce.dismiss
     - navigation.footer
+    - toc.integrate
   palette:
     primary: black
+
 plugins:
   - search
-  - blog
   - tags
+  - blog: 
+      blog_dir: blog
+      blog_toc: true
+      authors_profiles: true
+
+copyright: Copyright &copy; 2024 P1sc3s007
+repo_url: https://github.com/Pisces032/Blog
+repo_name: Pisces032/Blog
+
+markdown_extensions:
+  - toc:
+      permalink: ⚓︎
+      toc_depth: 3
+  
 extra:
   social:
     - icon: fontawesome/brands/bilibili 
       link: https://space.bilibili.com/40044305
       name: Bilibili
-copyright: Copyright &copy; 2024 P1sc3s007
-repo_url: https://github.com/Pisces032/Blog
-repo_name: Pisces032/Blog
