@@ -17,10 +17,8 @@ theme:
     primary: black
 plugins:
   - search
-  - blog:
-      authors_profiles: true
+  - blog
   - tags
-  
 extra:
   social:
     - icon: fontawesome/brands/bilibili 
@@ -29,10 +27,3 @@ extra:
 copyright: Copyright &copy; 2024 P1sc3s007
 repo_url: https://github.com/Pisces032/Blog
 repo_name: Pisces032/Blog
-nav:
-  - 主页:
-    - index.md
-  - Blog:
-    - blog/index.md
-    - blog/posts/hello-world.md
-    - blog/posts/提高代码可读性的一些方法.md
