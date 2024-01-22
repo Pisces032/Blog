@@ -1,5 +1,4 @@
 ---
-draft: true 
 date: 2024-01-22
 authors:
   - P1sc3s007
