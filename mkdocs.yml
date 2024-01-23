@@ -45,12 +45,12 @@ extra:
 nav: 
   - Welcome:
     - index.md
-  - Blog: 
-    - blog/index.md
-    - blog/posts/hello-world.md
-    - 寄术: 
-      - 提高代码可读性的不同命名方法: blog/posts/提高代码可读性的一些方法.md
-      - Git使用: blog/posts/Git 使用.md
+#  - Blog: 
+#    - blog/index.md
+#    - blog/posts/hello-world.md
+#    - 寄术: 
+#      - 提高代码可读性的不同命名方法: blog/posts/提高代码可读性的一些方法.md
+#      - Git使用: blog/posts/Git 使用.md
   - Programming: 
     - 1.21笔记: programming/move/Move 1.21.md
     #- programming/move/Move语言笔记.md
