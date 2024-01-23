@@ -16,14 +16,12 @@ theme:
     - header.autohide
     - announce.dismiss
     - navigation.footer
-    - toc.integrate
     - navigation.top
   palette:
     primary: black
 
 plugins:
   - search
-  - tags
 
 copyright: Copyright &copy; 2024 P1sc3s007
 repo_url: https://github.com/Pisces032/Blog
@@ -39,6 +37,9 @@ extra:
     - icon: fontawesome/brands/bilibili 
       link: https://space.bilibili.com/40044305
       name: Bilibili
+    - icon: fontawesome/brands/github
+      link: https://github.com/Pisces032
+      name: GitHub
 
 nav: 
   - Welcome:
@@ -46,4 +47,18 @@ nav:
   - Blog: 
     - blog/index.md
     - blog/hello-world.md
-    - blog/提高代码可读性的一些方法.md
+    - 寄术: 
+      - 提高代码可读性的不同命名方法: blog/tech/提高代码可读性的一些方法.md
+      - Git使用: blog/tech/Git 使用.md
+  - Programming: 
+    - programming/move/Move 1.21.md
+    - programming/move/Move语言笔记.md
+  - WP: 
+    - wp/MoveCTF2024 checkin WP.md
+  - Achieve: 
+    - weekly: 
+      - achieve/week/2023 12月第3周周报.md
+      - achieve/week/2023 12月第4周周报.md
+      - achieve/week/2023 12月第5周周报.md
+    - yearly: 
+      - 2023年度总结: achieve/year/2023年度总结.md
