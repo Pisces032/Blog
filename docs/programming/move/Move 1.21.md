@@ -49,8 +49,6 @@ authors:
 ### package
 ![image.png](pic/m12.png)<br />![image.png](pic/m13.png)
 
-- <br />
-
 <a name="RAQLZ"></a>
 ### CoinMetadata
 ![image.png](pic/m14.png)<br />![image.png](pic/m15.png)
